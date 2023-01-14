@@ -2,5 +2,7 @@
 repository = ~/Dotfiles
 ignore = [
     '.git',
-    '.gitignore']
+    '.gitignore',
+    'README.md',
+    'LICENSE']
 
