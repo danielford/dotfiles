@@ -1,0 +1,40 @@
+[default]
+sso_session = danford-dev
+sso_account_id = 265524986479
+sso_role_name = AWSPowerUserAccess
+region = us-west-2
+
+[profile DanFordDotDev_Test]
+sso_session = danford-dev 
+sso_account_id = 797251479904
+sso_role_name = AWSAdministratorAccess
+region = us-west-2
+
+[profile DanFordDotDev]
+sso_session = danford-dev
+sso_account_id = 480228180912
+sso_role_name = AWSAdministratorAccess
+region = us-west-2
+
+[profile AllenInstitute_PowerUser]
+sso_session = danford-dev
+sso_account_id = 265524986479
+sso_role_name = AWSPowerUserAccess
+region = us-west-2
+
+[profile PGA_Genomics]
+sso_session = allen-inst
+sso_account_id = 478836773452
+sso_role_name = AWSAdministratorAccess
+region = us-west-2
+
+[sso-session danford-dev]
+sso_start_url = https://danford.awsapps.com/start#/
+sso_region = us-west-2
+sso_registration_scopes = sso:account:access
+
+[sso-session allen-inst]
+sso_start_url = https://d-92671392b4.awsapps.com/start#/
+sso_region = us-west-2
+sso_registration_scopes = sso:account:access
+
